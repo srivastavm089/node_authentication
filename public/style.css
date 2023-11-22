@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+main{
+    background-color: pink;
+    padding: 15vh;
+ text-align: center;
+ 
+   
+
+}
+main form{
+    display: flex;
+    flex-direction: column;
+    gap: 2vh;
+    margin-top: 2vh;
+}
+.container-div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+}
+
+button{
+    background-color: red;
+    border: none;
+    padding: 1vh;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+transition: all 1s;
+
+}
+button:hover{
+    background-color:black;
+    
+}
+.error{
+    color: red;
+    font-weight: 600;
+    font-size: 12px;
+    text-align: end;
+
+}
